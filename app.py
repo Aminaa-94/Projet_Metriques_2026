@@ -59,6 +59,11 @@ def mongraphique():
 @app.route("/histogramme")
 def mongraphique2():
     return render_template("graphique2.html")
+
+
+@app.route("/atelier")
+def mongraphiquelyon():
+    return render_template("Atelier.html")
 # Ne rien mettre après ce commentaire
     
 if __name__ == "__main__":
