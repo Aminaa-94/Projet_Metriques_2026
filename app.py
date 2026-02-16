@@ -32,11 +32,11 @@ def api_paris():
     return jsonify(result)
 
 
+@app.route("/rapport")
+def mongraphique():
+    return render_template("graphique.html")
 # Ne rien mettre après ce commentaire
     
 if __name__ == "__main__":
   app.run(host="0.0.0.0", port=5000, debug=True)
 
-@app.route("/rapport")
-def mongraphique():
-    return render_template("graphique.html")
