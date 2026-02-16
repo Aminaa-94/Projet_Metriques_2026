@@ -36,8 +36,8 @@ def api_paris():
 def mongraphique():
     return render_template("graphique.html")
 
-@app.route("/histogram")
-def mongraphique():
+@app.route("/histogramme")
+def mongraphique2():
     return render_template("graphique2.html")
 # Ne rien mettre après ce commentaire
     
